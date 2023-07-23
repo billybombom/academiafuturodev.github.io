@@ -1,0 +1,898 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background-color: #A03333;
+}
+
+header{
+    background-color: #A03333;
+    display: flex;
+    justify-content: space-between ;
+    padding: 40px;
+    
+}
+
+.icone:hover{
+    transform: scale(1.1);
+    transition: 200ms ease;
+}
+
+#links-header{
+    display: flex;
+    align-items: center;
+    font-family: 'Bebas Neue', sans-serif;
+    gap: 18px;
+    font-size: 28px;
+}
+
+#div-a:hover{
+    background-color: #222222;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 100ms ease;
+}
+
+a{
+    color: white;
+}
+
+.retangulo-registre{
+    width: 172px;
+    height: 44px;
+    background-color: #222222;
+    display: flex;
+    border-radius: 0px 50px 0px 0px; 
+    align-items: center;
+    justify-content: center;
+}
+
+.icone-nav{
+    display: none;
+}
+
+#div-a-links:hover{
+    background-color: #222222;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 300ms ease;
+}
+
+
+
+
+
+
+
+
+
+/* CONTEUDO-PRINCIPAL*/
+
+
+.container-top{
+    display: flex;
+    align-items: center;
+    margin: 80px;
+    justify-content:space-between;
+    
+}
+
+.apresentacao{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.frases{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#apresent1{
+    font-family: 'Bungee Outline', cursive;
+    font-size: 102px;
+    color: white;
+}
+#apresent2{
+    font-family: 'Bebas Neue', sans-serif;
+    color: white;
+    font-size: 82px;
+}
+
+.sub-text{
+    font-family: 'Montserrat', sans-serif;
+    width: 500px;
+    font-size: 19px;
+    color: white;
+}
+
+.comecar{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 32px;
+    width: 160px;
+    height: 45px;
+    border: none;
+    border-radius: 0px 30px 0px 0px;
+    background-color: #222222;
+    color: white;
+}
+
+.comecar:hover{
+    background-color: #B4B4B4;
+}
+.comecar:active{
+    background-color: #222222   ;
+}
+
+.img-cara{
+    margin-right: 50px;   
+}
+#img-maromba{
+    width: 600px;
+}
+
+
+
+
+/*BARRA*/
+
+
+
+
+
+.barra{
+    background-color: #222222;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+#barra-cell{
+    display: none;
+}
+
+#itens-barra{
+    font-family: 'Bebas Neue', sans-serif;
+    color: white;
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+
+
+/*CONTEUDO "NOSSOS DIFERENCIAIS*/
+
+
+.diferenciais{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+#textUm-diferenciais{
+    font-family: 'Bungee Outline', cursive;
+    font-size: 62px;
+    color: white;
+}
+#textDois-diferenciais{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 82px;
+    color: white;
+}
+
+.grid-sessao{
+    display: grid;
+    grid-template-columns: 320px 320px 320px 320px;
+    grid-template-rows: 346px;
+    justify-content: center;
+    margin-top: 80px;
+    gap: 40px;
+    margin-bottom: 150px;
+}
+
+.texto-btn-grid{
+    display: flex;
+    width: 210px;
+    height: 57px;
+    background-color: #222222;   
+    align-items: center;
+    justify-content: center;
+    font-family: 'Bebas Neue', sans-serif;
+    color: white;
+    gap: 20px;
+    border: none;
+}
+
+.texto-btn-grid:hover{
+    background-color: #B4B4B4;
+}
+
+
+.item{
+    display: grid;
+}
+
+
+.item:hover{
+    transform: scale(1.1);
+    background-color: #222222;
+    padding: 10px;
+    transition: 300ms ease-in-out;
+}
+
+#p1-grid{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 28px;
+    color: white;
+}
+
+#p2-grid{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: white;
+}
+
+
+
+#p3-grid{
+    font-family: 'Bebas Neue', sans-serif;
+    color: white;
+    font-size: 16px;
+}
+
+#p3-grid-2{
+    background-color: #FF3939;
+    width: 287px;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    border-radius: 0px 30px 0px 0px;
+    font-family: 'Bebas Neue', sans-serif;
+    color: white;
+    
+
+    
+}
+
+
+/*ESPAÇO PLANOS*/
+
+
+
+.container-planos{
+    background-color: #222222;
+    height: 657px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.titulo-planos{
+    display: flex;
+    justify-content: center;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 82px;
+    color: white;
+    
+
+}
+
+
+.grid-planos{
+    display: grid;
+    grid-template-columns: 399px 399px 399px;
+    grid-template-rows: 362px;
+    margin-top: 30px;
+    justify-content: center;
+    gap: 40px;
+}
+
+.plano-1{
+    background-color: rgb(81, 81, 209);
+    display: grid;
+    grid-template-columns: 399px;
+    grid-template-rows: 168px 90px;
+
+}
+#text-plano{
+    background-color: black;
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: start;
+    font-size: 42pt;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.inform-btn-plano{
+    background-color: #B4B4B4;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    display: flex;
+    padding: 24px;
+    justify-content: space-between;
+}
+.interna-inform{
+    opacity: 60%;
+}
+
+#btn-selecionar{
+    border: 0.1px solid #645f5f;
+    background-color: #B4B4B4;
+    border-radius: 20px;
+    height: 50px;
+    width: 136px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    opacity: 60%;
+}
+
+#btn-selecionar:hover,#btn-selecionar-plano-2:hover{
+    background-color: #222222;
+}
+#btn-selecionar:active,#btn-selecionar-plano-2:active{
+    background-color: #ceb6b6;
+}
+
+.plano-2{
+    background-color: rgb(81, 81, 209);
+    display: grid;
+    grid-template-columns: 399px;
+    grid-template-rows: 168px 90px;
+}
+
+.recomendacao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: white;
+    background-color: #FF3939;
+}
+
+
+#text-plano-2{
+    background-color: rgb(255, 0, 0);
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: start;
+    font-size: 42pt;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+#preco-plano{
+    font-family: 'Bebas Neue', sans-serif;
+    color: white;
+}
+
+#btn-selecionar-plano-2{
+    border: 0.1px solid #ff0000;
+    background-color: #B4B4B4;
+    color: #FF3939  ;
+    border-radius: 20px;
+    height: 50px;
+    width: 136px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    
+}
+.plano-3{
+    background-color: rgb(81, 81, 209);
+    display: grid;
+    grid-template-columns: 399px;
+    grid-template-rows: 168px 90px;
+    
+
+}
+
+
+
+
+/*AREA DE INFORMAÇÕES DA ACADEMIA*/
+
+
+
+
+
+.container-informs-gym{
+    display: flex;
+    justify-content: space-around;
+    height: 658px;
+    
+
+}
+
+.container-titulos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    gap: 50px;
+
+}
+
+.campo1-informs-gym{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#titulo-informs-gym{
+    font-family: 'Bungee Outline', cursive;
+    color: white;
+    font-size: 62px;
+}
+
+#titulo2-informs-gym{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 62px;
+    color: white;
+}
+
+
+.texto-informs{
+    width: 600px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: white;
+    transform: translateY(-20px);
+}
+
+.informs{
+    display: flex;
+    gap: 30px;
+}
+
+
+#titulohmm{
+    font-family: 'Bebas Neue', sans-serif;
+    color: white;
+    font-size: 62px;
+
+}
+
+#sub-text-inform{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: white;
+}
+.img-casal{
+    transform: translateY(76px);
+}
+
+
+/*CONTATO FOOTER*/
+
+footer{
+    height: 467px;
+    background-color: #222222;
+    margin-bottom: 250px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contato{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    margin-right: 50px;
+    gap: 30px;
+}
+
+
+#titulo-contato{
+    color: white;
+    font-size: 62px;
+    font-family: 'Bebas Neue', sans-serif;
+
+}
+
+#resumo-contato{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    color: white;
+}
+.inputs-contato{
+    display: flex;
+    gap: 40px;
+}
+.contatoCampo{
+    width: 234px;
+    height: 42px;
+    border: 0.4px solid white;
+    border-radius: 0px 35px 0px 0px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 10px;
+    background-color: #222222;
+
+}
+
+#solicitar-contato{
+    width: 244px;
+    height: 42px;
+    background-color: #FF3939;
+    border-radius: 0px 35px 0px 0px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 10px;
+    border: none;
+    
+}
+
+#solicitar-contato:hover{
+    background-color: #ffdfdf;
+}
+
+#img-muie{
+    transform: translateY(-80px);
+    height: 547px;
+    
+}
+
+#img-casal-tablet{
+    display: none;
+}
+
+
+
+
+/*MEDIA QUERY RESPONSIVIDADE , TENTEI*/
+
+
+
+
+
+
+@media screen and (min-width:767px) and (max-width:1023px){
+
+ 
+    header{
+        background-color: #A03333;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px;
+    }
+
+   
+   
+  
+    .icone{
+        margin-left: 0px;
+    }
+    
+    #links-header{
+        display: none;
+        margin-right: 0px;
+    }
+
+    .icone-nav{
+        display: block;
+    }
+
+    #img-maromba{
+        width: 250px;
+    }
+
+    .container-top{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .cont-diferenciais{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .grid-sessao{
+        display: grid;
+        grid-template-columns: 250px 250px;
+        grid-template-rows: 346px 346px;
+        margin-top: 15px;
+    }
+
+    .grid-planos{
+        display: grid;
+        grid-template-columns: 399px;
+        grid-template-rows: 346px 346px 346px;
+    }
+
+    .container-informs-gym{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .img-casal{
+        display: none;
+        
+    }
+    #img-dois{
+        width: 200px    ;
+    }
+    #img-muie{
+        display: none;
+    }
+
+    .diferenciais{
+        margin-top: 20px;
+    }
+
+  
+    
+
+
+
+    #itens-barra{
+        display: none;
+    }
+    #barra-cell{
+        display: block;
+        font-family: 'Bebas Neue', sans-serif;
+        color: white;
+        font-size: 32px;
+    }
+
+    #apresent1{
+        font-size: 62px;
+    }
+    #apresent2{
+        font-size: 42px;
+    }
+
+    .container-top{
+        margin-top: 0px;
+        
+    }
+    #img-maromba{
+        transform: translateY(85px);
+    }
+
+    .container-informs-gym{
+        margin-top: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0px;
+        gap: 20px;
+    }
+
+    .informs-gym{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+
+    #titulo-informs-gym{
+        font-size: 42px;
+    }
+    #titulohmm{
+        font-size: 30px;
+    }
+
+    .informs{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    footer{
+        margin-bottom: 0px;
+    }
+
+    .container-planos{
+        background-color: #222222;
+        height: auto;
+    }
+
+    .recomendacao{
+        display: none;
+    }
+    #img-muie{
+        display: block;
+        width: 300px;
+        height: 350px;
+        transform: translateY(0px);
+    }
+
+    footer{
+        display: flex;
+        gap: 0px;
+        align-items: center;
+    }
+
+   
+    
+    
+
+
+}
+
+
+@media screen and (max-width:767px) {
+    header{
+        background-color: #A03333;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px;
+    }
+  
+    .icone{
+        margin-left: 0px;
+    }
+    
+    #links-header{
+        display: none;
+        margin-right: 0px;
+    }
+
+    .icone-nav{
+        display: block;
+    }
+
+    #img-maromba{
+        width: 250px;
+    }
+
+    .container-top{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .cont-diferenciais{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .grid-sessao{
+        display: grid;
+        grid-template-columns: 250px;
+        grid-template-rows: 346px 346px 346px 346px;
+        margin-top: 15px;
+    }
+
+    .grid-planos{
+        display: grid;
+        grid-template-columns: 399px;
+        grid-template-rows: 362px 362px 362px;
+        gap: 50px;
+        margin-top: 0px;
+        
+    }
+
+    .container-informs-gym{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img-casal{
+        transform: translateY(0px);
+        display: none;
+        
+    }
+    #img-dois{
+        width: 200px    ;
+    }
+    #img-muie{
+        display: none;
+    }
+
+    .diferenciais{
+        margin-top: 20px;
+    }
+
+    .recomendacao{
+        display: none;
+    }
+
+  
+    #itens-barra{
+        display: none;
+    }
+    #barra-cell{
+        display: block;
+        font-family: 'Bebas Neue', sans-serif;
+        color: white;
+        font-size: 32px;
+    }
+
+    #apresent1{
+        font-size: 62px;
+    }
+    #apresent2{
+        font-size: 42px;
+    }
+    #textUm-diferenciais{
+        font-size: 42px;
+    }
+    #textDois-diferenciais{
+        font-size: 42px;
+    }
+
+    .container-top{
+        margin-top: 0px;
+        
+    }
+    #img-maromba{
+        transform: translateY(85px);
+    }
+
+    .container-informs-gym{
+        margin-top: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0px;
+        gap: 20px;
+    }
+
+    .informs-gym{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+
+    #titulo-informs-gym{
+        font-size: 42px;
+    }
+    #titulohmm{
+        font-size: 30px;
+    }
+
+    .informs{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    footer{
+        margin-bottom: 0px;
+    }
+
+    .container-planos{
+        background-color: #222222;
+        height: auto;
+    }
+
+    #titulo2-informs-gym{
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 42px;
+        color: white;
+    }
+
+    
+}
